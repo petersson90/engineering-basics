@@ -112,7 +112,7 @@ docker run postgres
 
 </details>
 
-It will run an instance of the postgres database (that you know from yesterday: we used it for our Twitter API). How 🤔 ?
+It will run an instance of the postgres database (that you know from previous exercise: we used it for our Twitter API). How 🤔 ?
 
 - Docker will use the image from the host (your machine) if it exists
 - If the image is not present on the host, it will go to the Docker Hub and pull the image for you 👌!
