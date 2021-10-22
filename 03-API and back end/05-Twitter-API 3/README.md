@@ -32,7 +32,7 @@ git push -u origin docker
 
 ## 1. Sanity check - non-containerized stack 
 
-The stack is not containerized yet. But let's make a sanity check to verify that everything is working. This also acts as a reminder of the previous steps on this challenge !
+The stack is not containerized yet. But let's make a sanity check to verify that everything is working. This also acts as a reminder of the previous steps on this challenge!
 
 ### 1.a. Install dependencies
 
