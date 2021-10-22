@@ -8,7 +8,7 @@ We have already set up an web application and a database, and now we will focus 
 
 ## 0. Setup
 
-We're going to continue from the prvious correction :
+We're going to continue from the previous correction :
 :point_right: [github.com/ssaunier/twitter-api](https://github.com/ssaunier/twitter-api)
 
 Start from the following code (using the `docker` branch):
