@@ -2,7 +2,7 @@
 
 Now that we have played a bit with Flask, it's time to start the exercises which will keep us busy for today. The goal is to build a clone of the [Twitter API](https://developer.twitter.com/en/docs/api-reference-index) using Flask and different Flask plugins (like [these](https://github.com/humiaozuzu/awesome-flask)).
 
-⚠️ In this exercise, we will implement some API endpoints with a big restriction: we don't have a relational database yet! This constraint will help you focus on the HTTP layer of the API, not on the information retrieval. To abstract the database, we will use the [data access object (DAO)](https://en.wikipedia.org/wiki/Data_access_object) pattern and tomorrow we will replace it with actual queries to the database.
+⚠️ In this exercise, we will implement some API endpoints with a big restriction: we don't have a relational database yet! This constraint will help you focus on the HTTP layer of the API, not on the information retrieval. To abstract the database, we will use the [data access object (DAO)](https://en.wikipedia.org/wiki/Data_access_object) pattern and later we will replace it with actual queries to the database.
 
 ## Getting started
 
