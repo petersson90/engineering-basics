@@ -390,8 +390,8 @@ So we need different things here:
 👉 Create a file named Dockerfile in this challenge folder
 
 ```bash
-cd ~/code/<user.github_nickname>/reboot-python
-cd 05-Docker/01-Docker-101
+cd ~/code/<user.github_nickname>/engineering-basics
+cd 03-API-and-Back-End/04-Docker-101
 touch Dockerfile
 ```
 
@@ -499,9 +499,9 @@ So you already know all the base commands to interact with images and containers
 Before you jump to the next challenge (Twitter-API), let's mark your progress with the following:
 
 ```bash
-cd ~/code/<user.github_nickname>/reboot-python
-cd 05-Docker/01-Docker-101
+cd ~/code/<user.github_nickname>/engineering-basics
+cd 03-API-and-Back-End/04-Docker-101
 touch DONE.md
-git add DONE.md && git commit -m "05-Docker/01-Docker-101"
+git add DONE.md && git commit -m "03-API-and-Back-End/04-Docker-101"
 git push origin master
 ```

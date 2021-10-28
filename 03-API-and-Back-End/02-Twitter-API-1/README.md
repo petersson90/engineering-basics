@@ -700,9 +700,9 @@ Good luck 😉
 Before you jump to the next exercise, let's mark your progress with the following:
 
 ```bash
-cd ~/code/<user.github_nickname>/reboot-python
-cd 03-Back-end/02-Twitter-API
+cd ~/code/<user.github_nickname>/engineering-basics
+cd 03-API-and-Back-End/02-Twitter-API-1
 touch DONE.md
-git add DONE.md && git commit -m "03-Back-end/02-Twitter-API done"
+git add DONE.md && git commit -m "03-API-and-Back-End/02-Twitter-API-1 done"
 git push origin master
 ```

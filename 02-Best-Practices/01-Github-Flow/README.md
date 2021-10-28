@@ -179,7 +179,7 @@ If you talk with other developers about `git`, some advanced concepts might come
 Before you jump to the next exercise, let's mark your progress with the following:
 
 ```bash
-cd ~/code/<user.github_nickname>/reboot-python
+cd ~/code/<user.github_nickname>/engineering-basics
 cd 02-Best-Practices/01-Github-Flow
 touch DONE.md
 git add DONE.md && git commit -m "02-Best-Practices/01-Github-Flow done"

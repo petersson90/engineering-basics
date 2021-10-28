@@ -469,9 +469,9 @@ Go ahead, you can TDD it!
 Let's mark your progress with the following:
 
 ```bash
-cd ~/code/<user.github_nickname>/reboot-python
-cd 04-Database/02-Twitter
+cd ~/code/<user.github_nickname>/engineering-basics
+cd 03-API-and-Back-End/03-Twitter-API-2
 touch DONE.md
-git add DONE.md && git commit -m "04-Database/02-Twitter done"
+git add DONE.md && git commit -m "03-API-and-Back-End/03-Twitter-API-2 done"
 git push origin master
 ```
