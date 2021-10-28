@@ -638,12 +638,12 @@ With this kind of setup:
 
 Clean up your docker host by running ```docker-compose down -v``` to stop and remove the containers, and remove the volumes used above.
 
-And that's it for this challenge ! Before you jump to the next challenge (`03-Background-Jobs`), let's mark your progress with the following:
+And that's it for this challenge ! Before you finish the day, let's mark your progress with the following:
 
 ```bash
-cd ~/code/<user.github_nickname>/reboot-python
-cd 05-Docker/02-Twitter-API
+cd ~/code/<user.github_nickname>/engineering-basics
+cd 03-API-and-Back-End/05-Twitter-API-3
 touch DONE.md
-git add DONE.md && git commit -m "05-Docker/02-Twitter-API"
+git add DONE.md && git commit -m "03-API-and-Back-End/05-Twitter-API-3"
 git push origin master
 ```
