@@ -5,7 +5,7 @@ Another way of modifying the behavior of a Python script (other than command lin
 ## Getting started
 
 ```bash
-cd ~/code/<user.github_nickname>/reboot-python
+cd ~/code/<user.github_nickname>/engineering-basics
 cd 01-OOP/03-Environment
 subl .
 nosetests

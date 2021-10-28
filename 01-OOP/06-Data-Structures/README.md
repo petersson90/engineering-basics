@@ -15,7 +15,7 @@ All read? Let's code!
 ## Getting Started
 
 ```bash
-cd ~/code/<user.github_nickname>/reboot-python
+cd ~/code/<user.github_nickname>/engineering-basics
 cd 01-OOP/06-Data-Structures
 subl .
 ```
