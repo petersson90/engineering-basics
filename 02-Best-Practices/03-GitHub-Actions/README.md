@@ -50,7 +50,7 @@ jobs:
         with:
           python-version: '3.9'
       - run: |
-	      python --version
+          python --version
 ```
 
 Let's see line by line what we're doing:
