@@ -2,7 +2,7 @@
 
 The goal of this exercise is to continue the previous work: **Twitter API**.
 
-We have already set up an web application and a database, and now we will focus on containerizing this stack locally, to be able to develop on it, and run our tests inside containers.
+Now we will focus on containerizing this stack locally, to be able to develop on it, and run our tests inside containers.
 
 ---
 
