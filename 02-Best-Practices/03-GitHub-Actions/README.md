@@ -158,14 +158,17 @@ mkdir -p app/tests && touch app/__init__.py
 And add this `test_example.py` file:
 
 ```python
-# app/tests/test_example.py
+# tests/test_example.py
+# pylint: disable=missing-docstring
+# pylint: disable=too-few-public-methods
+
 from unittest import TestCase
+import pylint
 
 class TestExample(TestCase):
 
-  def test_example(self):
-    import pylint
-    self.assertIsNotNone(pylint)
+    def test_example(self):
+        self.assertIsNotNone(pylint)
 ```
 
 Commit!
