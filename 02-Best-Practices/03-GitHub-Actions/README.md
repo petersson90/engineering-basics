@@ -115,19 +115,19 @@ Let's try it! Add, commit and push the file to your remote repository.
 
 Once you pushed it, go to the Github interface, on your project page, and click on the "Actions" tab. After a few seconds you should see your workflow appear on the left side, below "All workflows", and you should see an instance of your workflow currently running.
 
-<p><img src="../../img/gh_action_workflow_home.jpg" width="900"></p>
+<p><img src="https://github.com/lewagon/fullstack-images/blob/master/reboot-python/gh_action_workflow_home.jpg?raw=true" width="900"></p>
 
 Click on the workflow run to access this run's page:
 
-<p><img src="../../img/gh_action_workflow_progress.jpg" width="900"></p>
+<p><img src="https://github.com/lewagon/fullstack-images/blob/master/reboot-python/gh_action_workflow_progress.jpg?raw=true" width="900"></p>
 
 Here we have only one job, python-check-version. Click on it to have more details:
 
-<p><img src="../../img/gh_action_workflow_details.jpg" width="750"></p>
+<p><img src="https://github.com/lewagon/fullstack-images/blob/master/reboot-python/gh_action_workflow_details.jpg?raw=true" width="750"></p>
 
 You can toggle any step to get its output:
 
-<p><img src="../../img/gh_action_python_version.jpg" width="300"></p>
+<p><img src="https://github.com/lewagon/fullstack-images/blob/master/reboot-python/gh_action_python_version.jpg?raw=true" width="300"></p>
 
 
 :bulb: You can see that two more steps were run after `python --version`. `Post Run actions/checkout@v2` was automatically added at the end of your workflow by our first step `actions/checkout@v2`. Click on it to see what it does! Basically it unsets git settings to make sure they will never be accessible again. Mainly useful when we set up authentication credentials. `Complete job` is added by Github for internal operations.
