@@ -233,6 +233,12 @@ For example, `github.event_name` contains the name of the event that triggered t
 
 :bulb: See [contexts](https://docs.github.com/en/actions/learn-github-actions/contexts) for all available context variables and [expressions](https://docs.github.com/en/actions/learn-github-actions/expressions) for the expression syntax.
 
+### Secrets
+
+One of the available context variables is `secrets`, which allows you to access special variables that are used for authentication purposes. You can define them yourself (for instance by creating one from the Github interface in your account by going to Settings => Secrets) but one is made available by Github during the workflow execution: `${{ secrets.GITHUB_TOKEN }}`. 
+
+At the start of each workflow run, Github automatically creates a unique GITHUB_TOKEN secret and makes it accessible to the workflow. This token can be used to authenticate and bring changes to the repository for which it is currently running; for example add a comment, create a Pull Request, add a reviewer, etc.
+
 ### Conditions
 
 You can conditionally execute a step or a job with the "if" syntax. For instance, if you want to run a step or a job only if the current event is triggered on the "master" branch, we can add the following at the step (or job) level:
