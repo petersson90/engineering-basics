@@ -668,8 +668,8 @@ Before you jump to the next exercise, let's mark your progress with the followin
 
 ```bash
 cd ~/code/<user.github_nickname>/engineering-basics
-cd 03-API-and-Back-End/01-Flask-CRUD
+cd 02-Best-Practices/06-Flask-CRUD
 touch DONE.md
-git add DONE.md && git commit -m "03-API-and-Back-End/01-Flask-CRUD done"
+git add DONE.md && git commit -m "02-Best-Practices/06-Flask-CRUD done"
 git push origin master
 ```

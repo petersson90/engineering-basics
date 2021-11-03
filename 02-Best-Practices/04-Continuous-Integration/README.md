@@ -213,6 +213,6 @@ Before you jump to the next exercise, let's mark your progress with the followin
 cd ~/code/<user.github_nickname>/engineering-basics
 cd 02-Best-Practices/04-Continuous-Integration
 touch DONE.md
-git add DONE.md && git commit -m "02-Best-Practices/03-Continuous-Integration done"
+git add DONE.md && git commit -m "02-Best-Practices/04-Continuous-Integration done"
 git push origin master
 ```

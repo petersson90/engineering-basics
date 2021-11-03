@@ -701,8 +701,8 @@ Before you jump to the next exercise, let's mark your progress with the followin
 
 ```bash
 cd ~/code/<user.github_nickname>/engineering-basics
-cd 03-API-and-Back-End/02-Twitter-API-1
+cd 02-Best-Practices/07-Twitter-API
 touch DONE.md
-git add DONE.md && git commit -m "03-API-and-Back-End/02-Twitter-API-1 done"
+git add DONE.md && git commit -m "02-Best-Practices/07-Twitter-API done"
 git push origin master
 ```
