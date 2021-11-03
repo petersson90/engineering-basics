@@ -152,7 +152,7 @@ git add Pipfile* && git commit -m "add python dependencies"
 Let's also add a test file. Create a `app/tests` directory:
 
 ```bash
-mkdir -p app/tests && touch app/__init__.py
+mkdir -p app/tests && touch app/__init__.py && touch app/tests/test_example.py
 ```
 
 And add this `test_example.py` file:
