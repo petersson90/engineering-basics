@@ -642,8 +642,8 @@ And that's it for this challenge ! Before you finish the day, let's mark your pr
 
 ```bash
 cd ~/code/<user.github_nickname>/engineering-basics
-cd 03-API-and-Back-End/05-Twitter-API-3
+cd 03-Containerization/02-Twitter-API-Containerization
 touch DONE.md
-git add DONE.md && git commit -m "03-API-and-Back-End/05-Twitter-API-3"
+git add DONE.md && git commit -m "03-Containerization/02-Twitter-API-Containerization"
 git push origin master
 ```

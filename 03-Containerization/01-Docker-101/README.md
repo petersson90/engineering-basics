@@ -391,7 +391,7 @@ So we need different things here:
 
 ```bash
 cd ~/code/<user.github_nickname>/engineering-basics
-cd 03-API-and-Back-End/04-Docker-101
+cd 03-Containerization/01-Docker-101
 touch Dockerfile
 ```
 
@@ -500,8 +500,8 @@ Before you jump to the next challenge (Twitter-API), let's mark your progress wi
 
 ```bash
 cd ~/code/<user.github_nickname>/engineering-basics
-cd 03-API-and-Back-End/04-Docker-101
+cd 03-Containerization/01-Docker-101
 touch DONE.md
-git add DONE.md && git commit -m "03-API-and-Back-End/04-Docker-101"
+git add DONE.md && git commit -m "03-Containerization/01-Docker-101"
 git push origin master
 ```
