@@ -314,3 +314,16 @@ jobs:
 ```
 
 </details>
+
+
+## I'm done!
+
+Before you jump to the next exercise, let's mark your progress with the following:
+
+```bash
+cd ~/code/<user.github_nickname>/engineering-basics
+cd 02-Best-Practices/03-GitHub-Actions
+touch DONE.md
+git add DONE.md && git commit -m "02-Best-Practices/03-GitHub-Actions done"
+git push origin master
+```
