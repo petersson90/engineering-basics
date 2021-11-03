@@ -136,7 +136,7 @@ You can toggle any step to get its output:
 
 :bulb: In the following exercises, keep in mind that there is a [marketplace](https://github.com/marketplace?type=actions) with many ready-to-use actions!
 
-For the purpose of the exercise we will intall the following dependencies:
+For the purpose of the exercise we will install the following dependencies:
 
 ```bash
 pipenv --python 3.9
