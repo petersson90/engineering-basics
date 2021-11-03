@@ -274,8 +274,7 @@ Complete YAML file:
 ```yaml
 name: Python Linter & Tests
 
-on:
-  push:
+on: push
 
 jobs:
   build:
