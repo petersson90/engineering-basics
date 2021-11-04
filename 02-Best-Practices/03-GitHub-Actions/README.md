@@ -237,7 +237,7 @@ For example, `github.event_name` contains the name of the event that triggered t
 
 One of the available context variables is `secrets`, which allows you to access special variables that are used for authentication purposes. You can define them yourself (for instance by creating one from the Github interface in your account by going to Settings => Secrets) but one is made available by Github during the workflow execution: `${{ secrets.GITHUB_TOKEN }}`. 
 
-At the start of each workflow run, Github automatically creates a unique GITHUB_TOKEN secret and makes it accessible to the workflow. This token can be used to authenticate and bring changes to the repository for which it is currently running; for example add a comment, create a Pull Request, add a reviewer, etc.
+At the start of each workflow run, Github automatically creates a unique `GITHUB_TOKEN` secret and makes it accessible to the workflow. This token can be used to authenticate and bring changes to the repository for which it is currently running; for example add a comment, create a Pull Request, add a reviewer, etc.
 
 ### Conditions
 
