@@ -465,7 +465,7 @@ Bear in mind that depending on your project, the `Jenkinsfile` will vary. For th
 Before you jump to the next exercise, let's mark your progress with the following:
 
 ```bash
-cd ~/code/<user.github_nickname>/reboot-python
+cd ~/code/<user.github_nickname>/engineering-basics
 cd 02-Best-Practices/05-Optional-Jenkins
 touch DONE.md
 git add DONE.md && git commit -m "02-Best-Practices/05-Optional-Jenkins done"

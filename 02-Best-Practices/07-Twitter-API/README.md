@@ -1,8 +1,8 @@
-# Twitter API
+# Twitter API 
 
-Now that we have played a bit with Flask, it's time to start the exercises which will keep us busy for the next three days. The goal is to build a clone of the [Twitter API](https://developer.twitter.com/en/docs/api-reference-index) using Flask and different Flask plugins (like [these](https://github.com/humiaozuzu/awesome-flask)).
+The goal is to build a clone of the [Twitter API](https://developer.twitter.com/en/docs/api-reference-index) using Flask and different Flask plugins (like [these](https://github.com/humiaozuzu/awesome-flask)).
 
-⚠️ In this exercise, we will implement some API endpoints with a big restriction: we don't have a relational database yet! This constraint will help you focus on the HTTP layer of the API, not on the information retrieval. To abstract the database, we will use the [data access object (DAO)](https://en.wikipedia.org/wiki/Data_access_object) pattern and tomorrow we will replace it with actual queries to the database.
+⚠️ In this exercise, we will implement some API endpoints with a big restriction: we don't have a relational database yet! This constraint will help you focus on the HTTP layer of the API, not on the information retrieval. To abstract the database, we will use the [data access object (DAO)](https://en.wikipedia.org/wiki/Data_access_object) pattern.
 
 ## Getting started
 
@@ -700,9 +700,9 @@ Good luck 😉
 Before you jump to the next exercise, let's mark your progress with the following:
 
 ```bash
-cd ~/code/<user.github_nickname>/reboot-python
-cd 03-Back-end/02-Twitter-API
+cd ~/code/<user.github_nickname>/engineering-basics
+cd 02-Best-Practices/07-Twitter-API
 touch DONE.md
-git add DONE.md && git commit -m "03-Back-end/02-Twitter-API done"
+git add DONE.md && git commit -m "02-Best-Practices/07-Twitter-API done"
 git push origin master
 ```

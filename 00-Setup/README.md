@@ -38,9 +38,9 @@ The repository which you just forked contains all the exercises for the week. To
 
 ```bash
 mkdir -p ~/code/<user.github_nickname> && cd $_
-git clone git@github.com:<user.github_nickname>/reboot-python.git
-cd reboot-python
-git remote add upstream git@github.com:lewagon/reboot-python.git
+git clone git@github.com:<user.github_nickname>/engineering-basics.git
+cd engineering-basics
+git remote add upstream git@github.com:lewagon/engineering-basics.git
 
 pwd # This is your exercise repository!
 ```
@@ -51,7 +51,7 @@ This repository has a `Pipfile`. You now can easily install dependencies with th
 pipenv install --dev # to install `packages` **and** `dev-packages`
 ```
 
-It will create the Virtualenv for this folder, using Python 3.8 as [specified](https://github.com/lewagon/reboot-python/blob/master/Pipfile#L15-L16)
+It will create the Virtualenv for this folder, using Python 3.8 as [specified](https://github.com/lewagon/engineering-basics/blob/master/Pipfile#L15-L16)
 
 ## Getting the green dot
 

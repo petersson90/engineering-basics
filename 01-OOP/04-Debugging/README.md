@@ -9,7 +9,7 @@ In this exercise, we will focus on Interactive debugging & control flow analysis
 ## Getting started
 
 ```bash
-cd ~/code/<user.github_nickname>/reboot-python
+cd ~/code/<user.github_nickname>/engineering-basics
 cd 01-OOP/04-Debugging
 subl .
 ```
@@ -41,7 +41,7 @@ pipenv run python hello.py john lennon
 The program will **halt** at the line you inserted the `pdb.set_trace()`:
 
 ```bash
-> [...]/reboot-python/01-OOP/04-Debugging/hello.py(6)full_name()
+> [...]/engineering-basics/01-OOP/04-Debugging/hello.py(6)full_name()
 -> name = f"{first_name.capitalize()}{last_name.capitalize()}"
 (Pdb)
 ```

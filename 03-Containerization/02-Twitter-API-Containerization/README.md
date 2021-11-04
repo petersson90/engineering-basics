@@ -1,14 +1,14 @@
 # Twitter API - Containerization
 
-The goal of this exercise is to continue the work on Wednesday's and Thursday's exercises: **Twitter API**.
+The goal of this exercise is to continue the previous work: **Twitter API**.
 
-We have already set up an web application and a database, and today we will focus on containerizing this stack locally, to be able to develop on it, and run our tests inside containers.
+Now we will focus on containerizing this stack locally, to be able to develop on it, and run our tests inside containers.
 
 ---
 
 ## 0. Setup
 
-We're going to continue from yesterday's correction :
+We're going to continue from the previous correction :
 :point_right: [github.com/ssaunier/twitter-api](https://github.com/ssaunier/twitter-api)
 
 Start from the following code (using the `docker` branch):
@@ -30,9 +30,9 @@ git push -u origin docker
 
 ---
 
-## 1. Sanity check - non-containerized stack (⏰ reminder of day 3 and 4)
+## 1. Sanity check - non-containerized stack 
 
-The stack is not containerized yet. But let's make a sanity check to verify that everything is working. This also acts as a reminder of the two previous days on this challenge !
+The stack is not containerized yet. But let's make a sanity check to verify that everything is working. This also acts as a reminder of the previous steps on this challenge!
 
 ### 1.a. Install dependencies
 
@@ -59,11 +59,11 @@ nosetests
 </details>
 
 Does it work ? It should not ! Why ?
-:point_right: Try to fix ! You have been through this yesterday already !
+:point_right: Try to fix ! You have been through this already !
 
 <details><summary markdown='span'>Hint</summary>
 
-Yesterday, we used a `.env` file to configure the used Database with an environment variable.
+We have used a `.env` file to configure the used Database with an environment variable.
 
 </details>
 
@@ -85,7 +85,7 @@ DATABASE_URL="postgresql://postgres@localhost/twitter_api_flask"
 You should still have the `twitter_api_flask` and `twitter_api_flask_test` databases on your laptop.
 Now running your test suite `nosetests` should work !
 
-Please note that if you deleted the **dev** and **test** databases yesterday, you would have to re-set them up !
+Please note that if you deleted the **dev** and **test** databases during the previous exercise, you would have to re-set them up !
 
 Create the **dev** and **test** Postgres databases (remember that we have 2 separate database for our _development_ and _test_ environments ! We <b>really</b> want to distinguish them not to mix any data - which could lead to unwanted behavior !!
 
@@ -119,7 +119,7 @@ FLASK_ENV=development pipenv run flask run
 Go to <a href="http://localhost:5000/">localhost:5000</a> and <a href="http://localhost:5000/tweets">localhost:5000/tweets</a>.
 
 
-Note that if you deleted your dev database yesterday, you would have to run the migrations again:
+Note that if you deleted your dev database during the previous exercise, you would have to run the migrations again:
 
 ```bash
 pipenv run python manage.py db upgrade
@@ -485,7 +485,7 @@ Some details about what just happened:
 * Calling `docker-compose up` will launch `db` and `web`
 * `web` depends on `db` to be up and healthy. The `docker-compose up` commands make sure of it by running a control script: `wait-for-it.sh`
 * once `db` is up and healthy, `web` can be run
-* our database is secured by a user/password, that Flask knows (we pass it through the `DATABASE_URL` environment variable that you already know from yesterday)
+* our database is secured by a user/password, that Flask knows (we pass it through the `DATABASE_URL` environment variable that you already know from previous exercise)
 
 ⚠️ Note that we have **hard-coded** a dummy **database password** ("_password_") here. We would of course do better going live 💪 (such as using an environment variable, or a secret from a Vault). But remember that we are industrializing our stack progressively: of course all our iterations cannot perfect but we are aiming at something robust in the end !
 
@@ -638,12 +638,12 @@ With this kind of setup:
 
 Clean up your docker host by running ```docker-compose down -v``` to stop and remove the containers, and remove the volumes used above.
 
-And that's it for this challenge ! Before you jump to the next challenge (`03-Background-Jobs`), let's mark your progress with the following:
+And that's it for this challenge ! Before you finish the day, let's mark your progress with the following:
 
 ```bash
-cd ~/code/<user.github_nickname>/reboot-python
-cd 05-Docker/02-Twitter-API
+cd ~/code/<user.github_nickname>/engineering-basics
+cd 03-Containerization/02-Twitter-API-Containerization
 touch DONE.md
-git add DONE.md && git commit -m "05-Docker/02-Twitter-API"
+git add DONE.md && git commit -m "03-Containerization/02-Twitter-API-Containerization"
 git push origin master
 ```

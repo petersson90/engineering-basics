@@ -5,7 +5,7 @@ Let's start with a very simple exercise to understand how these exercises are go
 ## Getting started
 
 ```bash
-cd ~/code/<user.github_nickname>/reboot-python
+cd ~/code/<user.github_nickname>/engineering-basics
 git pull upstream master # Retrieve the latest version of the exercise
 
 cd 01-OOP/01-Sum-Of-Three

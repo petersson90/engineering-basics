@@ -5,7 +5,7 @@ Python scripts can read arguments passed on the command line. This may come in h
 ## Getting started
 
 ```bash
-cd ~/code/<user.github_nickname>/reboot-python
+cd ~/code/<user.github_nickname>/engineering-basics
 cd 01-OOP/02-System-Parameters
 subl .
 nosetests

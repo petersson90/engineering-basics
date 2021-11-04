@@ -31,7 +31,7 @@ type(4)
 
 
 ```bash
-cd ~/code/<user.github_nickname>/reboot-python
+cd ~/code/<user.github_nickname>/engineering-basics
 cd 01-OOP/05-String-Manipulation
 subl .
 nosetests

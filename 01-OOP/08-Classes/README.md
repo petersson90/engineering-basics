@@ -7,7 +7,7 @@ Take some time to read [9.3 - A first look at classes](https://docs.python.org/3
 ## Getting Started
 
 ```bash
-cd ~/code/<user.github_nickname>/reboot-python
+cd ~/code/<user.github_nickname>/engineering-basics
 cd 01-OOP/08-Classes
 subl .
 ```
